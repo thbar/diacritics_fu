@@ -23,6 +23,11 @@ Author
 
 Thibaut Barrère (http://blog.logeek.fr)
 
+TODO
+====
+
+This Git commit http://github.com/rails/rails/commit/22f75d539dca7b6f33cbf86e4e9d1944bb22731f indicates that the gem won't be able to work in future versions of rails => fix this.
+
 License
 =======
 
