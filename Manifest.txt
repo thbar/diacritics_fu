@@ -1,0 +1,6 @@
+diacritics_fu.gemspec
+History.txt
+lib/diacritics_fu.rb
+Manifest.txt
+README
+spec/diacritics_fu_spec.rb

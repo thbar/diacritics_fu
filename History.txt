@@ -1,0 +1,5 @@
+== 1.0.0 / 2008-10-21
+  * Packaged as a gem.
+ 
+== 0.9.0 / 2008-05-13
+  * First public release on GitHub.
