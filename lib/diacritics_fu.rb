@@ -1,3 +1,5 @@
+require 'activesupport'
+
 # A tiny class to remove accents (éèê) and other diacritics (ç) from a string.
 #
 # Author::    Thibaut Barrère  (mailto:thibaut.barrere@gmail.com)
