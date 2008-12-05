@@ -10,23 +10,23 @@ DiacriticsFu::escape("räksmörgås")
 What?
 =====
 
-A small library to remove accents from a string. Relies on ActiveSupport::Multibyte::Handlers::UTF8Handler (Rails).
+A small library to remove accents from a string. Relies on ActiveSupport.
 
 Created because I needed a simple way to remove most diacritics from French sentences, while generating slugs (url) for a CMS (either Mephisto or ComatoseCMS).
 
 Nb: this approach is not the fastest way to achieve this. It's good enough for me though.
-
-The library is not packaged (either like a gem, or a plugin, that is). Just drop diacritics_fu.rb in your /lib folder.
 
 Author
 ======
 
 Thibaut Barrère (http://blog.logeek.fr)
 
-TODO
-====
+Testing
+=======
 
-This Git commit http://github.com/rails/rails/commit/22f75d539dca7b6f33cbf86e4e9d1944bb22731f indicates that the gem won't be able to work in future versions of rails => fix this.
+You can run the spec against the latest available ActiveSupport using "rake spec".
+
+To run the tests against all installed ActiveSupport versions, use "rake spec_multi"
 
 License
 =======
