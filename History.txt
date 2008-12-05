@@ -1,3 +1,8 @@
+== 1.0.1 / 2008-12-05
+  * Added support for Rails > 2.2 (thanks Nicolas Fouché!)
+  * Refactored to check ActiveSupport version
+  * Added missing require activerecord to the lib
+
 == 1.0.0 / 2008-10-21
   * Packaged as a gem.
  

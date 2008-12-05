@@ -1,6 +1,10 @@
 diacritics_fu.gemspec
 History.txt
 lib/diacritics_fu.rb
+lib/diacritics_fu/new_escaper.rb
+lib/diacritics_fu/old_escaper.rb
 Manifest.txt
+Rakefile
 README
 spec/diacritics_fu_spec.rb
+spec/spec_helper.rb
