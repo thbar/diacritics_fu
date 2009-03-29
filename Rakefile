@@ -13,7 +13,7 @@ begin
     s.homepage = "http://github.com/thbar/diacritics_fu"
     s.description = "TODO"
     s.authors = ["Thibaut Barrère"]
-    s.rubyforge_project = 'diacritics_fu'
+    s.rubyforge_project = 'diacritics-fu'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
@@ -34,7 +34,8 @@ begin
         )
 
         host = "#{config['username']}@rubyforge.org"
-        remote_dir = "/var/www/gforge-projects/#{gem_name}/"
+        # TODO - sort out this - vs _ thingy
+        remote_dir = "/var/www/gforge-projects/diacritics-fu"
         local_dir = 'rdoc'
 
         Rake::SshDirPublisher.new(host, remote_dir, local_dir).upload

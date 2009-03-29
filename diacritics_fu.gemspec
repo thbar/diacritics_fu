@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/thbar/diacritics_fu}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{diacritics_fu}
+  s.rubyforge_project = %q{diacritics-fu}
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{A small library to remove accents from a string. Relies on ActiveSupport.}
 
